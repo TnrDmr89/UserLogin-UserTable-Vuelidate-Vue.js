@@ -55,7 +55,6 @@
                                 <button class="btn" :class="$v.$invalid ? 'btn-dark' : 'btn-primary'" @click.prevent="save"
                                     :disabled="$v.$invalid">Kaydet</button>
                             </div>
-                            <p>{{ $v.user.age }}</p>
                         </form>
                     </div>
                 </div>
