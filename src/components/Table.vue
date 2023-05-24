@@ -100,12 +100,12 @@
                         <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
                         <button type="button" class="btn"
                         :class="$v.$invalid ? 'btn-dark' : 'btn-primary'" 
-                        @click.prevent="update" data-bs-dismiss="modal" :disabled="$v.$invalid">Güncelle</button>
+                        @click.prevent="update" data-bs-dismiss="modal" :disabled="$v.$invalid">Kaydet</button>
                     </div>
                     </form>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
     </div>
 </template>
